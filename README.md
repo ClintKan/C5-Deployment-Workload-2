@@ -51,12 +51,19 @@ Upon completion, an image similar to the one below should appear
   <img width="1091" alt="Pasted Graphic 8" src="https://github.com/user-attachments/assets/47b8d4b2-7e27-432e-9a72-558787956b04">
 </div>
 
-#### Verification of Jenkins and admin account setup.
+5. Because a user named Jenkins is automatically createdduring process step #, change the password of it by running the command below;
 
+```sh
+sudo passwd jenkins
+```
+
+#### Verification of existent of Jenkins admin account and it's password change.
 
 <div align="center">
   <img width="730" alt="Pasted Graphic 10" src="https://github.com/user-attachments/assets/ce636f59-b215-4f78-b90a-f1d4d5ebf74d">
 </div>
+
+
 
 
 5. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
@@ -81,13 +88,3 @@ aws --version
 
 
 
-------------------------------------------------TO BE DELETED-----------------------------------------------------------
-## Error Handling
-
-**Invalid Operation:** If the user inputs a number outside the range of 1-4 for the operation, the script will exit with an error message.
-
-**Invalid Input:** If the user inputs a non-integer value for either of the numbers, the script will prompt them to enter a valid integer.
-
-**Exit Codes**
-- 0: Successful execution.
-- 1: An invalid operation was selected.
