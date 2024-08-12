@@ -1,6 +1,6 @@
 # C5 DEPLOYMENT WORKLOAD 2
 
-#### Deployment of a WebApp into AWS Elastic BeanStalk - fully automated way (unlike to Workload 1)
+#### _Deployment of a WebApp into AWS Elastic BeanStalk - fully automated way (unlike to Workload 1)_
 
 ## OBJECTIVE
 In this assignment, entirely in AWS, a Retail Banking App is deployed - with all source files 
