@@ -66,7 +66,7 @@ sudo passwd jenkins
 
 
 
-5. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
+6. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
 
 ```sh
 sudo apt-get install unzip
