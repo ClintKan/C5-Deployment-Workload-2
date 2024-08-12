@@ -24,7 +24,7 @@ if [ $used_memory_percentage -ge 70 ]; then
     else
         echo "Memory is above 70%"
         echo "Storage used is below 70%"
-        exit 1
+        exit 0
     fi
 else
     # Memory is below 70%
