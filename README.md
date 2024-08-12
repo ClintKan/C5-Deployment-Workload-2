@@ -22,11 +22,18 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
 
 ```
 
+#### Verification of Jenkins and admin account setup.
+
+
+
 3. AWS CLI was then installed on the same EC2, using the script named ""
 
 ```sh
 
 ```
+
+
+#### Verification of proper AWS-CLI installation.
 
 
 4. 
