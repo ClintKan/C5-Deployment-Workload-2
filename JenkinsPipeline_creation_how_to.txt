@@ -1,0 +1,19 @@
+Create an access token on your personal GitHub account - it will be used in the next steps.
+This token can only be viewed ONCE! Make sure you enter the token properly (or save it) before leaving the page otherwise a new token must be generated!
+
+While in Jenkins web GUI http://ec2-public-ip-address:8080/
+
+Click on “New Item” in the menu on the left of the page
+  a. Enter a name for your pipeline.
+  b. Select “Multibranch Pipeline”
+  c. Under “Branch Sources”, click “Add source” and select “GitHub”
+  d. Click “+ Add” and select “Jenkins”
+  e. Make sure “Kind” reads “Username and password”
+  f. Under “Username”, enter your GitHub username
+  g. Under “Password”, enter your GitHub personal access token.
+
+Connect GitHub repository to Jenkins
+  a. Enter the repository HTTPS URL and click "Validate"
+  b. Make sure that the "Build Configuration" section says "Mode: by Jenkinsfile" and "Script Path: Jenkinsfile"
+  c. Click "Save" and a build should start automatically.
+
