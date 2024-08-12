@@ -44,8 +44,12 @@ sudo systemctl status jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-4. Create a pipeline in Jenkins ([_steps found here_](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/JenkinsPipeline_creation_how_to.txt))
+4. Create a pipeline in Jenkins ([_steps found here_](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/JenkinsPipeline_creation_how_to.txt)).
 
+Upon completion, an image similar to the one below should appear
+```sh
+  <img width="1091" alt="Pasted Graphic 8" src="https://github.com/user-attachments/assets/47b8d4b2-7e27-432e-9a72-558787956b04">
+```
 
 #### Verification of Jenkins and admin account setup.
 
@@ -55,7 +59,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 </div>
 
 
-4. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
+5. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
 
 ```sh
 sudo apt-get install unzip
@@ -66,7 +70,6 @@ sudo ./aws/install
 aws --version
 
 ```
-
 
 #### Verification of proper AWS-CLI installation.
 
