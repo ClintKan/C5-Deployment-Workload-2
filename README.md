@@ -19,8 +19,8 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
 	<img width="1345" alt="Pasted Graphic 6" src="https://github.com/user-attachments/assets/8a1cf22e-2037-4cf3-9c09-0621dc18f3c1">
 </div>
 
-- #### _These keys are used to establish a secure connection between two systems._
-- #### _These keys are never shared/displayed publicly, but rather input directly in the systems that need them_
+- #### _These keys are used to establish a secure connection between two systems.
+- #### _These keys are never shared/displayed publicly, but rather input directly in the systems that need them
 
 2. Jenkins was installed installed on the EC2 using the script named "_install_jenkins.sh_"
 
