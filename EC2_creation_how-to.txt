@@ -1,0 +1,22 @@
+Log into AWS
+In the search bar type in and navigate to the “EC2” Service
+On the left side menu, navigate to “instances”
+  a. If the menu is not there, click on the 3 vertical dashes to expand the menu
+4. Click on “Launch Instances” at the top right of the screen
+5. Name your instance
+6. Select “Ubuntu” under Amazon Machine Image (AMI)
+7. Make sure “t2.micro” is selected under “Instance Type”
+8. Select a “Key Pair” if you already have one
+  a. If not, click “create new key pair”
+  b. Name it, select “RSA”, and “.pem”
+9. Select a “Security Group” if one has already been configured that matches what you require for your EC2
+  a. If not, click “Edit” next to “Network Settings”
+  b. Click “create security group”
+  c. Name the security group and give it a brief description
+  d. Under “security group rules”: “type- SSH” (port should automatically be 22) and “source- 0.0.0.0/0”
+  e. Click on “add security group rule”
+  f. “Type- HTTP” (port should automatically be 80) and “source- 0.0.0.0/0”
+  g. If installing JENKINS, add another rule for “type- Custom TCP”, “port- 8080”, “source- 0.0.0.0/0”
+10. Click on “Launch Instance” on the bottom right of the page under “Summary”
+  a. NOTE: There are a lot of other options for customizing the EC2. Depending on the situation, you may need to explore the different settings. For now, anything not mentioned in this guide can be left alone.
+
