@@ -19,14 +19,20 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
 	<img width="1345" alt="Pasted Graphic 6" src="https://github.com/user-attachments/assets/8a1cf22e-2037-4cf3-9c09-0621dc18f3c1">
 </div>
 
+
 - **_These keys are used to establish a secure connection between two systems._**
 - **_These keys are never shared/displayed publicly, but rather input directly in the systems that need them._**
 
+
 2. Jenkins was installed installed on the EC2 using the script named "_install_jenkins.sh_"
+
 
 ```sh
 
 ```
+
+
+3. 
 
 #### Verification of Jenkins and admin account setup.
 
@@ -36,7 +42,7 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
 </div>
 
 
-3. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
+4. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
 
 ```sh
 
@@ -49,7 +55,7 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
   <img width="656" alt="Pasted Graphic 9" src="https://github.com/user-attachments/assets/4cb552f8-a0a8-4dfe-bdb7-d86db9f988e5">
 </div>
 
-4. 
+
 
 
 
