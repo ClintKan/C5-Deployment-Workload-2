@@ -9,7 +9,7 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
 
 ## PROCESS
 
-1. An AWS t2.micro EC2 [steps found here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/EC2_creation_how-to.txt) was created the following security configurations
+1. An AWS t2.micro EC2 ([steps found here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/EC2_creation_how-to.txt)) was created the following security configurations
 
 - Port configuration; 22 for SSH
 - Port configuration; 8080 for Jenkins
