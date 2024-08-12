@@ -47,9 +47,9 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 4. Create a pipeline in Jenkins ([_steps found here_](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/JenkinsPipeline_creation_how_to.txt)).
 
 Upon completion, an image similar to the one below should appear
-```sh
+<div align="center">
   <img width="1091" alt="Pasted Graphic 8" src="https://github.com/user-attachments/assets/47b8d4b2-7e27-432e-9a72-558787956b04">
-```
+</div>
 
 #### Verification of Jenkins and admin account setup.
 
