@@ -6,7 +6,6 @@
 In this assignment, entirely in AWS, a Retail Banking App is deployed - with all source files 
 built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AWS Beanstalk.
 
-6432485
 
 ## PROCESS
 
