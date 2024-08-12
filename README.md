@@ -14,9 +14,14 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
 
 - Port configuration; 22 for SSH
 - Port configuration; 8080 for Jenkins
-- An AWS Secret key was created for AWS CLI
+- An AWS Secret key was created with a use case selection being "Command Line Interface (CLI)"
 
-2. Jenkins was installed installed on the EC2 using the script named ""
+<img width="1345" alt="Pasted Graphic 6" src="https://github.com/user-attachments/assets/8a1cf22e-2037-4cf3-9c09-0621dc18f3c1">
+
+#### _These keys are used to establish a secure connection between two systems._
+#### _These keys are never shared/displayed publicly, but rather input directly in the systems that need them_
+
+2. Jenkins was installed installed on the EC2 using the script named "_install_jenkins.sh_"
 
 ```sh
 
@@ -26,7 +31,11 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
 
 
 
-3. AWS CLI was then installed on the same EC2, using the script named ""
+<img width="730" alt="Pasted Graphic 10" src="https://github.com/user-attachments/assets/ce636f59-b215-4f78-b90a-f1d4d5ebf74d">
+
+
+
+3. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
 
 ```sh
 
@@ -34,6 +43,8 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
 
 
 #### Verification of proper AWS-CLI installation.
+
+<img width="656" alt="Pasted Graphic 9" src="https://github.com/user-attachments/assets/4cb552f8-a0a8-4dfe-bdb7-d86db9f988e5">
 
 
 4. 
