@@ -28,11 +28,18 @@ built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AW
 
 
 ```sh
+sudo apt update && sudo apt install fontconfig openjdk-17-jre software-properties-common && sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt install python3.7 python3.7-venv
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
 
 ```
 
 
-3. Jenkins GUI is logged into via _http://[public-ip-address-of-ec2]:8080/_ using the initial admin password displayed by running the command;
+3. Jenkins GUI is logged into via **_http://[public-ip-address-of-ec2]:8080/_** using the initial admin password displayed by running the command;
 ```sh
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
@@ -51,6 +58,12 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 4. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
 
 ```sh
+sudo apt-get install unzip
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+aws --version
 
 ```
 
