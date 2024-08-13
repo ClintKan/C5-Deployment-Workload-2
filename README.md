@@ -63,7 +63,7 @@ sudo passwd jenkins
   <img width="730" alt="Pasted Graphic 10" src="https://github.com/user-attachments/assets/ce636f59-b215-4f78-b90a-f1d4d5ebf74d">
 </div>
 
-**<u>Note:</u>**
+**<ins>Note:</ins>**
 To  navigate to the environment that holds the files executed by Jenkins, the navigaion woulld require to;
 - Navigate the terminal as the user Jenkins, therefore switching to the user Jenkins if not already.
 - Might require a password change if it's not known
