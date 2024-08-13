@@ -1,13 +1,13 @@
-# C5 DEPLOYMENT WORKLOAD 2
+<u># C5 DEPLOYMENT WORKLOAD 2/<u>
 
 #### _Deployment of a WebApp into AWS Elastic BeanStalk - fully automated way (unlike to Workload 1)_
 
-## OBJECTIVE
+<u>## OBJECTIVE/<u>
 In this assignment, entirely in AWS, a Retail Banking App is deployed - with all source files 
 built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AWS Beanstalk.
 
 
-## PROCESS
+<u>## PROCESS/<u>
 
 1. An AWS t2.micro EC2 (_[steps found here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/EC2_creation_how-to.txt)_) was created the following security configurations
 
@@ -63,7 +63,18 @@ sudo passwd jenkins
   <img width="730" alt="Pasted Graphic 10" src="https://github.com/user-attachments/assets/ce636f59-b215-4f78-b90a-f1d4d5ebf74d">
 </div>
 
-
+<u>**Note:**/<u>
+To  navigate to the environment that holds the files executed by Jenkins, the navigaion woulld require to;
+- Navigate the terminal as the user Jenkins, therefore switching to the user Jenkins if not already.
+- Might require a password change if it's not known
+```sh
+sudo passwd jenkins # password change of the user jenkins
+sudo su - jenkins # switching into the user jenkins
+```
+- Then, navigating into the directory
+```sh
+cd ./workspace/ELB_Pipeline_main && ls -al
+```
 
 
 6. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
