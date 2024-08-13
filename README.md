@@ -1,4 +1,4 @@
-# <u>C5 DEPLOYMENT WORKLOAD 2</u>
+# <ins>C5 DEPLOYMENT WORKLOAD 2</ins>
 
 #### _Deployment of a WebApp into AWS Elastic BeanStalk - fully automated way (unlike to Workload 1)_
 
@@ -7,7 +7,7 @@ In this assignment, entirely in AWS, a Retail Banking App is deployed - with all
 built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AWS Beanstalk.
 
 
-## <u>PROCESS</u>
+## <ins>PROCESS</ins>
 
 1. An AWS t2.micro EC2 (_[steps found here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/EC2_creation_how-to.txt)_) was created the following security configurations
 
