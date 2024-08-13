@@ -2,7 +2,7 @@
 
 #### _Deployment of a WebApp into AWS Elastic BeanStalk - fully automated way (unlike to Workload 1)_
 
-<u>## OBJECTIVE/<u>
+## <ins> OBJECTIVE</ins>
 In this assignment, entirely in AWS, a Retail Banking App is deployed - with all source files 
 built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AWS Beanstalk.
 
