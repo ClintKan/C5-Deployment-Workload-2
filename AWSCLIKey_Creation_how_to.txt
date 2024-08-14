@@ -1,0 +1,7 @@
+Create AWS Access Keys:
+  a. Navigate to the AWS servce: IAM (search for this in the AWS console)
+  b. Click on "Users" on the left side navigation panel
+  c. Click on your User Name
+  d. Underneath the "Summary" section, click on the "Security credentials" tab
+  e. Scroll down to "Access keys" and click on "Create access key" 
+  f. Select the appropriate "use case", and then click "Next" and then "Create access key"
