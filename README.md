@@ -77,7 +77,6 @@ sudo su - jenkins # switching into the user jenkins
 cd ./workspace/ELB_Pipeline_main && ls -al
 ```
 
-
 6. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
 
 ```sh
@@ -98,10 +97,20 @@ aws --version
 
 
 7. Configure AWS CLI in terminal
-Pre-requisites:
-Prior to running the commands below, make sure you already have (if not create) an AWS CLI key pair - see how here.
+
+#### Pre-requisites:
+- Prior to running the commands below, make sure you already have (if not create) an AWS CLI key pair - ((see how here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/AWSCLIKey_Creation_how_to.txt)).
+For a AWS Access Key ID  & Secret Access Keys will have to be input into the terminal.
+- Will need a region name & output format decided on - in this case I used us-east-1 and json respectively.
+- 
+
 - Run the commands below;
 ```sh
 aws configure
-```
+aws ec2 describe-instances
 
+
+cd ./workspace/ELB_Pipeline_main
+source venv/bin/activate
+```
+- S
