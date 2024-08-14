@@ -64,6 +64,7 @@ sudo passwd jenkins
 </div>
 
 **<ins>Note:</ins>**
+
 To  navigate to the environment that holds the files executed by Jenkins, the navigaion woulld require to;
 - Navigate the terminal as the user Jenkins, therefore switching to the user Jenkins if not already.
 - Might require a password change if it's not known
