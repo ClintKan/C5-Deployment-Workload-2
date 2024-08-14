@@ -23,7 +23,7 @@ pipeline {
            steps {
               sh '''#!/bin/bash
               source venv/bin/activate
-              eb create CK_Bank_EB --single
+              eb create CK-Bank-EB --single
               '''
           }
        }
