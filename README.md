@@ -97,6 +97,11 @@ aws --version
 </div>
 
 
-
-
+7. Configure AWS CLI in terminal
+Pre-requisites:
+Prior to running the commands below, make sure you already have (if not create) an AWS CLI key pair - see how here.
+- Run the commands below;
+```sh
+aws configure
+```
 
