@@ -112,10 +112,24 @@ The key pair; a AWS Access Key ID  & Secret Access Keys, will have to be input i
 python3.7 -m venv venv # to create a virtual environment called venv
 source venv/bin/activate # to get into a virtual environment called "venv"
 
-eb init #an initiation of the eb = elastic beanstalk
+eb init #an initiation of the elastic beanstalk
 
 pip install awsebcli && eb --version #to install aws elastic beanstalk CLI in the terminal
 
 aws configure #activating the aws CLI that was installed in earlier steps - it is at this step where you specify the region and output format of the app.
 ```
-- S
+
+8. Head to Jenkins Web GUI to then run pipeline - Build, Test and Deploy
+
+<div align="center">
+	<img width="1132" alt="Screenshot 2024-08-14 at 3 22 18 PM" src="https://github.com/user-attachments/assets/b8c0aac8-baaf-4fa8-ac2a-d3463b33c5a1">
+</div>
+
+**<ins>Note:</ins>** If an error is encountered
+   
+9. If all is successful, you should navigate to ([_AWS Elastic Beanstalk_](https://us-east-1.console.aws.amazon.com/elasticbeanstalk/home)] menu to see if there exists a created environment and application.
+   In my case, regarding this project, below is how it looked like...
+
+
+   
+   
