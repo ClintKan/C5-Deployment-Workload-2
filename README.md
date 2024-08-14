@@ -1,6 +1,6 @@
 # <ins>C5 DEPLOYMENT WORKLOAD 2</ins>
 
-#### _Deployment of a WebApp into AWS Elastic BeanStalk - fully automated way (unlike to Workload 1)_
+   #### _Deployment of a WebApp into AWS Elastic BeanStalk - fully automated way (unlike to Workload 1)_
 
 ## <ins> OBJECTIVE</ins>
 In this assignment, entirely in AWS, a Retail Banking App is deployed - with all source files 
@@ -57,7 +57,7 @@ Upon completion, an image similar to the one below should appear
 sudo passwd jenkins
 ```
 
-#### Verification of existent of Jenkins admin account and it's password change.
+   #### Verification of existent of Jenkins admin account and it's password change.
 
 <div align="center">
   <img width="730" alt="Pasted Graphic 10" src="https://github.com/user-attachments/assets/ce636f59-b215-4f78-b90a-f1d4d5ebf74d">
@@ -89,7 +89,8 @@ aws --version
 
 ```
 
-#### Verification of proper AWS-CLI installation.
+
+   #### Verification of proper AWS-CLI installation.
 
 <div align="center">
   <img width="656" alt="Pasted Graphic 9" src="https://github.com/user-attachments/assets/4cb552f8-a0a8-4dfe-bdb7-d86db9f988e5">
@@ -100,18 +101,21 @@ aws --version
 7. Configuring AWS CLI & AWS Elastic Beanstalk in the terminal.
 
 #### Pre-requisites:
-- Prior to running the commands below, make sure you already have (if not create) an AWS CLI key pair - ([see how here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/AWSCLIKey_Creation_how_to.txt)).
-For a AWS Access Key ID  & Secret Access Keys will have to be input into the terminal.
-- Will need a region name & output format decided on - in this case I used us-east-1 and json respectively.
+- Prior to running the commands below, make sure you already have (if not create) an AWS CLI key pair - ([_see how here_](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/AWSCLIKey_Creation_how_to.txt)).
+The key pair; a AWS Access Key ID  & Secret Access Keys, will have to be input into the terminal to initiate a secure connection between the terminal CLI - Command Line Interface and Jenkins environment.
+- You will need to know the scripting language to use, the region name and the output format decided on - in this assignment's case I used 'python3.7', '_us-east-1_' and '_json_' respectively.
 - Working in a virtual environment and using another user named "Jenkins"
 
-- Run the commands below;
+
+=> Run the commands below;
 ```sh
 python3.7 -m venv venv # to create a virtual environment called venv
 source venv/bin/activate # to get into a virtual environment called "venv"
 
-pip install awsebcli && eb --version #to install aws elastic beanstalk cli in the terminal
+eb init #an initiation of the eb = elastic beanstalk
 
-aws configure #activating the aws cli that was installed in earlier steps - it is at this step where you specify the region and output format of the app.
+pip install awsebcli && eb --version #to install aws elastic beanstalk CLI in the terminal
+
+aws configure #activating the aws CLI that was installed in earlier steps - it is at this step where you specify the region and output format of the app.
 ```
 - S
