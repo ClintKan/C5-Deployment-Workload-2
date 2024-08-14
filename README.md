@@ -99,7 +99,7 @@ aws --version
 7. Configure AWS CLI in terminal
 
 #### Pre-requisites:
-- Prior to running the commands below, make sure you already have (if not create) an AWS CLI key pair - ((see how here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/AWSCLIKey_Creation_how_to.txt)).
+- Prior to running the commands below, make sure you already have (if not create) an AWS CLI key pair - ([see how here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/AWSCLIKey_Creation_how_to.txt)).
 For a AWS Access Key ID  & Secret Access Keys will have to be input into the terminal.
 - Will need a region name & output format decided on - in this case I used us-east-1 and json respectively.
 - 
@@ -107,7 +107,7 @@ For a AWS Access Key ID  & Secret Access Keys will have to be input into the ter
 - Run the commands below;
 ```sh
 aws configure
-aws ec2 describe-instances
+aws ec2 describe-instances #displays the details about the AWS CLI
 
 
 cd ./workspace/ELB_Pipeline_main
