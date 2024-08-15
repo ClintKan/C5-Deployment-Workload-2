@@ -98,8 +98,7 @@ aws --version
 
 **_But also the command "aws ec2 describe-instances" can be run to show all details about the AWS CLI_**
 
-<span style="color: red;">**_If the code "aws ec2 describe-instances" is run, it may hang mid-way and not proceed - this is a command that just displays so to quit it and proceed just press "Q" on your keyboard._**
-</span>
+<span style="color:red">**_If the code "aws ec2 describe-instances" is run, it may hang mid-way and not proceed - this is a command that just displays so to quit it and proceed just press "Q" on your keyboard._**</span>
 
 7. Configuring AWS CLI & AWS Elastic Beanstalk in the terminal.
 
