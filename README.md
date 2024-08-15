@@ -98,7 +98,9 @@ aws --version
 
 **_But also the command "aws ec2 describe-instances" can be run to show all details about the AWS CLI_**
 
-<span style="color:red">**_If the code "aws ec2 describe-instances" is run, it may hang mid-way and not proceed - this is a command that just displays so to quit it and proceed just press "Q" on your keyboard._**</span>
+**<ins>Note:</ins>**
+
+**_If the code "aws ec2 describe-instances" is run, it may hang mid-way and not proceed - this is a command that just displays so to quit it and proceed just press "Q" on your keyboard._**
 
 7. Configuring AWS CLI & AWS Elastic Beanstalk in the terminal.
 
@@ -127,10 +129,15 @@ aws configure #activating the aws CLI that was installed in earlier steps - it i
 	<img width="1132" alt="Screenshot 2024-08-14 at 3 22 18 PM" src="https://github.com/user-attachments/assets/b8c0aac8-baaf-4fa8-ac2a-d3463b33c5a1">
 </div>
 
-**<ins>Note:</ins>** If an error is encountered
+**<ins>Note:</ins>** If an error is encountered during the Jenkins pipeline build and testing, it could be due to the following;
+	(i)   Traverse the error logs in Jenkins and/or AWS and then act accordingly.
+ 	(ii)  A missing deployment stage, or improper denting or closing of a stage in the Jenkins configuration file.
+	(iii) Naming the Elastic Beanstalk a name that contains invalid characters - name must contain only letters, digits, and the dash character and may not start or end with a dash. Fixable by updating the Jenkins file 
+              in the Deploy stage part of the code.
+ 	      
    
 9. If all is successful, you should navigate to ([_AWS Elastic Beanstalk_](https://us-east-1.console.aws.amazon.com/elasticbeanstalk/home)] menu to see if there exists a created environment and application.
-   In my case, regarding this project, below is how it looked like...
+   In my case, regarding this project, with the WebAp accessible.
 
 
    
