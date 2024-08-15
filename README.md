@@ -133,8 +133,7 @@ aws configure #activating the aws CLI that was installed in earlier steps - it i
 
 	(i)   Traverse the error logs in Jenkins and/or AWS and then act accordingly.
  	(ii)  A missing deployment stage, or improper denting or closing of a stage in the Jenkins configuration file.
-	(iii) Naming the Elastic Beanstalk a name that contains invalid characters - name must contain only letters, digits, and the dash character and may not start or end with a dash. Fixable by updating the Jenkins file 
-   in the Deploy stage part of the code.
+	(iii) Naming the Elastic Beanstalk a name that contains invalid characters - name must contain only letters, digits, and the dash character and may not start or end with a dash. Fixable by updating the Jenkins file in the Deploy stage part of the code.
  	      
    
 9. If all is successful, you should navigate to ([_AWS Elastic Beanstalk_](https://us-east-1.console.aws.amazon.com/elasticbeanstalk/home)] menu to see if there exists a created environment and application.
