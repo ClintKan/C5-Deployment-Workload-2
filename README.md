@@ -130,6 +130,7 @@ aws configure #activating the aws CLI that was installed in earlier steps - it i
 </div>
 
 **<ins>Note:</ins>** If an error is encountered during the Jenkins pipeline build and testing, it could be due to the following;
+
 	(i)   Traverse the error logs in Jenkins and/or AWS and then act accordingly.
  	(ii)  A missing deployment stage, or improper denting or closing of a stage in the Jenkins configuration file.
 	(iii) Naming the Elastic Beanstalk a name that contains invalid characters - name must contain only letters, digits, and the dash character and may not start or end with a dash. Fixable by updating the Jenkins file 
