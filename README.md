@@ -6,6 +6,11 @@
 In this assignment, entirely in AWS, a Retail Banking App is deployed - with all source files 
 built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AWS Beanstalk.
 
+## <ins> SYSTEM DIAGRAM</ins>
+<div align="center">
+	<img width="752" alt="image" src="https://github.com/user-attachments/assets/83d2e7b9-bda6-41ed-9315-ae42a6302e64">
+</div>
+
 
 ## <ins>PROCESS</ins>
 
