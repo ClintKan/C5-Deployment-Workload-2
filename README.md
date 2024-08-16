@@ -6,6 +6,8 @@
 In this assignment, entirely in AWS, a Retail Banking App is deployed - with all source files 
 built in GitHub, tested by a Jenkins server in AWS and by AWS CLI deployed to AWS Beanstalk.
 
+While in Workload #1, we had to manually upload a zipped file - as downloaded from GitHub repo, in this assignment we use the AWS' EC2 the command line interface of AWS to launch the app. This brings about more effeciency and automation capabilities.
+
 ## <ins> SYSTEM DIAGRAM</ins>
 <div align="center">
 	<img width="752" alt="image" src="https://github.com/user-attachments/assets/83d2e7b9-bda6-41ed-9315-ae42a6302e64">
