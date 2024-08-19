@@ -58,7 +58,10 @@ Upon completion, an image similar to the one below should appear
   <img width="1091" alt="Pasted Graphic 8" src="https://github.com/user-attachments/assets/47b8d4b2-7e27-432e-9a72-558787956b04">
 </div>
 
-5. Because a user named Jenkins is automatically createdduring process step #, change the password of it by running the command below;
+5. A user named Jenkins is automatically created during process step #7 of the Jenkinsfile (located in C5-Deployment-Workload-2/Jenkinsfile). This is key
+   because not on is it the one that will have access to the files needed in the pipeline, but it is same user that is to be used to execute the commands.
+   
+7. The change the password of it by running the command below;
 
 ```sh
 sudo passwd jenkins
@@ -84,7 +87,7 @@ sudo su - jenkins # switching into the user jenkins
 cd ./workspace/ELB_Pipeline_main && ls -al
 ```
 
-6. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
+8. AWS CLI was then installed on the same EC2, using the script named "_install_aws_cli.sh_"
 
 ```sh
 sudo apt-get install unzip
@@ -109,7 +112,7 @@ aws --version
 
 **_If the code "aws ec2 describe-instances" is run, it may hang mid-way and not proceed - this is a command that just displays so to quit it and proceed just press "Q" on your keyboard._**
 
-7. Configuring AWS CLI & AWS Elastic Beanstalk in the terminal.
+9. Configuring AWS CLI & AWS Elastic Beanstalk in the terminal.
 
 #### Pre-requisites:
 - Prior to running the commands below, make sure you already have (if not create) an AWS CLI key pair - ([_see how here_](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/AWSCLIKey_Creation_how_to.txt)).
@@ -130,7 +133,7 @@ pip install awsebcli && eb --version #to install aws elastic beanstalk CLI in th
 aws configure #activating the aws CLI that was installed in earlier steps - it is at this step where you specify the region and output format of the app.
 ```
 
-8. Head to Jenkins Web GUI to then run pipeline - Build, Test and Deploy
+10. Head to Jenkins Web GUI to then run pipeline - Build, Test and Deploy
 
 <div align="center">
 	<img width="1132" alt="Screenshot 2024-08-14 at 3 22 18 PM" src="https://github.com/user-attachments/assets/b8c0aac8-baaf-4fa8-ac2a-d3463b33c5a1">
@@ -144,7 +147,7 @@ aws configure #activating the aws CLI that was installed in earlier steps - it i
  	      in the Deploy stage part of the code.
  	      
    
-9. If all is successful, you should navigate to ([_AWS Elastic Beanstalk_](https://us-east-1.console.aws.amazon.com/elasticbeanstalk/home)] menu to see if there exists a created environment and application.
+11. If all is successful, you should navigate to ([_AWS Elastic Beanstalk_](https://us-east-1.console.aws.amazon.com/elasticbeanstalk/home)] menu to see if there exists a created environment and application.
    In my case, regarding this project, with the WebAp accessible.
 
 
