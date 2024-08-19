@@ -152,5 +152,12 @@ eb init #an initiation of the elastic beanstalk
    In my case, regarding this project, with the WebAp accessible.
 
 
+<div align="center">
+	<img width="1198" alt="image" src="https://github.com/user-attachments/assets/4d8d37bf-e171-4601-94e0-9b941b5a2624">
+ 
+	<img width="1112" alt="image" src="https://github.com/user-attachments/assets/5dd2ec0a-6661-4b7f-8c01-670002ea90c1">
+ 
+</div>
+
    
    
