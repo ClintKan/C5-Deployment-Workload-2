@@ -123,14 +123,15 @@ The key pair; a AWS Access Key ID  & Secret Access Keys, will have to be input i
 
 => Run the commands below;
 ```sh
-python3.7 -m venv venv # to create a virtual environment called venv
-source venv/bin/activate # to get into a virtual environment called "venv"
+python3.7 -m venv venv # to create a virtual environment called venv (optional since Jenkins already created it in the Built phase)
 
-eb init #an initiation of the elastic beanstalk
+source venv/bin/activate # to get into a virtual environment called "venv"
 
 pip install awsebcli && eb --version #to install aws elastic beanstalk CLI in the terminal
 
 aws configure #activating the aws CLI that was installed in earlier steps - it is at this step where you specify the region and output format of the app.
+
+eb init #an initiation of the elastic beanstalk
 ```
 
 9. Head to Jenkins Web GUI to then run pipeline - Build, Test and Deploy
