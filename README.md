@@ -16,7 +16,7 @@ While in Workload #1, we had to manually upload a zipped file - as downloaded fr
 
 ## <ins>PROCESS</ins>
 
-1. An AWS t2.micro EC2 (_[steps found here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/EC2_creation_how-to.txt)_) was created the following security configurations
+1. An AWS t2.micro EC2 (_[steps found here](https://github.com/ClintKan/C5-Deployment-Workload-2/blob/main/ec2_creation_howto.txt)_) was created the following security configurations
 
 - Port configuration; 22 for SSH
 - Port configuration; 8080 for Jenkins
